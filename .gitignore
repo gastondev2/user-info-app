@@ -1,0 +1,10 @@
+#node_modules
+node_modules/
+
+#others
+.cache
+.vscode
+npm-debug.log*
+
+#storybook
+/storybook-static
