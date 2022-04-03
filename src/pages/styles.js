@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { CardBase } from '../components/Card/styles';
+import { LoadingSpinnerBase } from '../components/LoadingSpinner/styles';
 import { media } from '../styles/media';
 import colors from '../styles/colors';
 
@@ -22,6 +23,16 @@ export const UsersBase = styled.div`
 
   ${CardBase} {
     margin: 15px;
+  }
+
+  ${LoadingSpinnerBase} {
+    position: absolute;
+    left: calc(50% - 50px);
+    top: calc(50% - 50px);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 `;
 
